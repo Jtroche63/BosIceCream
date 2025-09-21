@@ -1,6 +1,5 @@
 # BosIceCream
-Project Summary: Bo's Ice Cream Landing Page
-Overview
+Project Summary: Bo's Ice Cream Landing Page Overview
 This project involved the design and development of a modern, responsive landing page for Bo's Ice Cream. The primary goal was to create an engaging and informative single-page website that effectively showcases the brand, its story, and its products, while providing a clear call to action for customers.
 
 Key Features
