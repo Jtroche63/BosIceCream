@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bo's Ice Cream - A Taste of Heaven</title>
+    <!-- Tailwind CSS via CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Schoolbell&family=Swanky+and+Moo+Moo&display=swap" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body class="bg-[var(--light-gray)] text-[var(--dark-black)]">
+
+    <!-- Sticky Navigation Bar (Hidden by default, appears on scroll) -->
+    <nav id="main-nav" class="sticky-nav bg-[var(--light-gray)] shadow-lg p-4 transition-all duration-300">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="font-bold text-lg text-[var(--dark-blue)]">Bo's Ice Cream</a>
+            <div class="hidden md:flex space-x-6">
+                <a href="#hero" class="text-[var(--dark-black)] hover:text-[var(--dark-blue)] transition-colors">Home</a>
+                <a href="#about" class="text-[var(--dark-black)] hover:text-[var(--dark-blue)] transition-colors">About</a>
+                <a href="#flavors" class="text-[var(--dark-black)] hover:text-[var(--dark-blue)] transition-colors">Flavors</a>
+                <a href="#testimonials" class="text-[var(--dark-black)] hover:text-[var(--dark-blue)] transition-colors">Testimonials</a>
+                <a href="#contact" class="text-[var(--dark-black)] hover:text-[var(--dark-blue)] transition-colors">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <main class="relative">
+        <!-- Hero Section -->
+        <header id="hero" class="hero-bg min-h-screen flex items-center justify-center text-center p-8">
+            <div class="p-8 rounded-xl max-w-2xl mx-auto">
+                <h1 class="text-4xl md:text-6xl font-extrabold tracking-tight mb-4 drop-shadow-md text-[#FFFFFF]">
+                    Bo's Ice Cream: A Taste of Heaven
+                </h1>
+                <p class="text-xl md:text-2xl mb-8 drop-shadow-md text-[#FFFFFF]">
+                    Hand-crafted ice cream made with love and the finest, freshest ingredients.
+                </p>
+                <a href="#flavors" class="bg-[#2243BA] text-white font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-white hover:text-[#2243BA] transition-all transform hover:scale-105">
+                    Explore Our Flavors
+                </a>
+            </div>
+        </header>
+
+        <!-- About Section -->
+        <section id="about" class="container mx-auto py-16 px-6 md:px-12">
+            <div class="grid md:grid-cols-2 gap-12 items-center">
+                <div class="bg-[var(--light-gray)] p-8 rounded-xl shadow-lg">
+                    <h2 class="text-3xl md:text-4xl font-bold text-[var(--dark-blue)] mb-4">Our Story</h2>
+                    <p class="text-lg text-[var(--dark-black)] mb-4">
+                        Since 1954, Bo's has been a beloved landmark in Tampa's Seminole Heights neighborhood. We've been serving generations of families with our classic soft-serve and signature creations, like the famous upside-down banana split.
+                    </p>
+                    <p class="text-lg text-[var(--dark-black)]">
+                        We're dedicated to preserving the nostalgic walk-up window experience that has made us a community staple for over 60 years.
+                    </p>
+                </div>
+                <div class="rounded-xl overflow-hidden shadow-xl">
+                    <img src="https://i.imgur.com/QLRCdkq.jpeg" alt="Bo's Ice Cream shop" class="w-full h-auto object-cover">
+                </div>
+            </div>
+        </section>
+
+        <!-- Flavors Section (Features/Services) -->
+        <section id="flavors" class="bg-[var(--dark-blue)] py-16 px-6 md:px-12">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Our Signature Flavors</h2>
+                <p class="text-xl text-white mb-12">
+                    A collection of our most popular and unique creations.
+                </p>
+                <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Flavor Card 1 -->
+                    <div class="bg-[var(--light-gray)] rounded-xl shadow-lg p-6 transition-all transform hover:scale-105 hover:shadow-2xl">
+                        <img src="https://media.istockphoto.com/id/1211066737/photo/ice-cream-cone-strawberry.jpg?s=612x612&w=0&k=20&c=C9Jy365Q6NWkNnP4orSR94g_Yb1P7kleK1zUYS6Occk=" alt="Scoop of strawberry ice cream" class="rounded-lg mb-4 w-full h-auto">
+                        <h3 class="font-semibold text-2xl mb-2 text-[var(--dark-black)]">Strawberry Bliss</h3>
+                        <p class="text-[var(--dark-black)]">Made with fresh, locally sourced strawberries for a bright, fruity flavor.</p>
+                    </div>
+                    <!-- Flavor Card 2 -->
+                    <div class="bg-[var(--light-gray)] rounded-xl shadow-lg p-6 transition-all transform hover:scale-105 hover:shadow-2xl">
+                        <img src="https://i.pinimg.com/736x/f7/6b/28/f76b28774e5a98803afe8c09f13fa592.jpg" alt="Scoop of rich chocolate ice cream" class="rounded-lg mb-4 w-full h-auto">
+                        <h3 class="font-semibold text-2xl mb-2 text-[var(--dark-black)]">Chocolate Dream</h3>
+                        <p class="text-[var(--dark-black)]">Rich, decadent, and intensely chocolatey—a classic done right.</p>
+                    </div>
+                    <!-- Flavor Card 3 -->
+                    <div class="bg-[var(--light-gray)] rounded-xl shadow-lg p-6 transition-all transform hover:scale-105 hover:shadow-2xl">
+                        <img src="https://media.istockphoto.com/id/468180280/photo/vanilla-soft-serve-ice-cream-cone.jpg?s=612x612&w=0&k=20&c=ECXCGDLE5daTc18MmUCWCE31k32NyJkMHPf4kA0yM1U=" alt="Vanilla soft serve ice cream cone" class="rounded-lg mb-4 w-full h-auto">
+                        <h3 class="font-semibold text-2xl mb-2 text-[var(--dark-black)]">Classic Vanilla</h3>
+                        <p class="text-[var(--dark-black)]">Our smooth and creamy vanilla soft serve—a timeless favorite.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Testimonials Section -->
+        <section id="testimonials" class="container mx-auto py-16 px-6 md:px-12">
+            <div class="text-center mb-12">
+                <h2 class="text-3xl md:text-4xl font-bold text-[var(--dark-blue)] mb-4">What Our Customers Say</h2>
+                <p class="text-xl text-[var(--dark-black)]">Hear from those who love our ice cream as much as we do.</p>
+            </div>
+            <div class="grid md:grid-cols-3 gap-8">
+                <!-- Testimonial 1 -->
+                <div class="bg-[var(--light-gray)] p-8 rounded-xl shadow-lg">
+                    <p class="text-lg italic text-[var(--dark-black)] mb-4">"The best ice cream in town! The flavors are so unique and the texture is incredibly creamy."</p>
+                    <div class="flex items-center">
+                        <img src="https://placehold.co/48x48/787572/ABB0B6?text=JB" alt="Customer avatar" class="rounded-full w-12 h-12 mr-4">
+                        <div>
+                            <p class="font-semibold text-[var(--dark-black)]">Jane B.</p>
+                            <p class="text-sm text-[var(--dark-black)]">Local Food Blogger</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 2 -->
+                <div class="bg-[var(--light-gray)] p-8 rounded-xl shadow-lg">
+                    <p class="text-lg italic text-[var(--dark-black)] mb-4">"I've been a loyal customer for years. The quality is always top-notch, and the staff are so friendly."</p>
+                    <div class="flex items-center">
+                        <img src="https://placehold.co/48x48/787572/ABB0B6?text=MK" alt="Customer avatar" class="rounded-full w-12 h-12 mr-4">
+                        <div>
+                            <p class="font-semibold text-[var(--dark-black)]">Mike K.</p>
+                            <p class="text-sm text-[var(--dark-black)]">Community Member</p>
+                        </div>
+                    </div>
+                </div>
+                <!-- Testimonial 3 -->
+                <div class="bg-[var(--light-gray)] p-8 rounded-xl shadow-lg">
+                    <p class="text-lg italic text-[var(--dark-black)] mb-4">"Absolutely delicious! Every flavor is a work of art. My family and I can't get enough."</p>
+                    <div class="flex items-center">
+                        <img src="https://placehold.co/48x48/787572/ABB0B6?text=SP" alt="Customer avatar" class="rounded-full w-12 h-12 mr-4">
+                        <div>
+                            <p class="font-semibold text-[var(--dark-black)]">Sarah P.</p>
+                            <p class="text-sm text-[var(--dark-black)]">Regular Customer</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="bg-[var(--dark-black)] text-white py-16 px-6 md:px-12">
+            <div class="container mx-auto text-center">
+                <h2 class="text-3xl md:text-4xl font-bold text-white mb-4">Get in Touch</h2>
+                <p class="text-lg md:text-xl text-[var(--light-blue)] mb-8">
+                    We'd love to hear from you. Visit us or follow us on social media.
+                </p>
+                <div class="bg-[var(--dark-gray)] rounded-xl p-8 max-w-xl mx-auto shadow-2xl">
+                    <p class="text-xl mb-4 text-[var(--dark-black)]">Bo's Ice Cream Shop</p>
+                    <p class="text-[var(--dark-black)] mb-2">7101 N Florida Ave, Tampa, FL 33604</p>
+                    <p class="text-[var(--dark-black)] mb-2">Phone: (813) 302-9644</p>
+                    <p class="text-[var(--dark-black)] mb-4">Email: info@bosicecream.com</p>
+                    <a href="https://www.google.com/maps/place/Bo's+Ice+Cream,+7101+N+Florida+Ave,+Tampa,+FL+33604/" target="_blank" class="text-[var(--dark-blue)] hover:text-white font-semibold transition-colors">
+                        Get Directions
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="bg-[var(--dark-black)] text-[var(--dark-gray)] py-8 text-center">
+        <p>&copy; 2025 Bo's Ice Cream. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>

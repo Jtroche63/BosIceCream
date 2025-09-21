@@ -1,0 +1,45 @@
+:root {
+    --light-gray: #FFFFFF;
+    --dark-gray: #FFFFFF;
+    --dark-black: #0D0F0F;
+    --dark-blue: #2243BA;
+    --light-blue: #7EA2C6;
+}
+body {
+    font-family: Helvetica, Arial, sans-serif;
+    scroll-behavior: smooth;
+}
+
+h1, h2 {
+    font-family: 'Schoolbell', cursive;
+}
+
+.hero-bg {
+    background-image: url('https://thatssotampa.com/wp-content/uploads/2025/05/Bos_Cover_new-1024x576.webp');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Apply Swanky and Moo Moo to the subheading */
+.hero-subheading {
+    font-family: 'Swanky and Moo Moo', cursive;
+}
+
+/* Custom style for smooth scroll behavior */
+html {
+    scroll-behavior: smooth;
+}
+
+/* Sticky nav functionality */
+.sticky-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 50;
+    transform: translateY(-100%);
+    transition: transform 0.3s ease-in-out;
+}
+.sticky-nav.visible {
+    transform: translateY(0);
+}
